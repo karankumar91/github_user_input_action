@@ -27,9 +27,8 @@ jobs:
         with:
           python-version: '3.10' 
       - run: |
-        cd main
-        karan.py $a $b
-
+          cd main
+          karan.py $a $b
       - name: success message
         # run: echo program executed successfully on ubuntu-latest!!
         run: echo ${{github.event.inputs.inp1}}
