@@ -33,5 +33,5 @@ jobs:
       - name: success message
         # run: echo program executed successfully on ubuntu-latest!!
         run: echo ${{github.event.inputs.inp1}}
-            echo ${{github.event.inputs.inp2}}
+             ${{github.event.inputs.inp2}}
 
