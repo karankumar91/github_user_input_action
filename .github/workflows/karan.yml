@@ -1,5 +1,5 @@
 
-name: MyWorkflow
+name: karan
 
 on:
   workflow_dispatch:
@@ -29,8 +29,8 @@ jobs:
       - run: |
           cd main
           karan.py $a $b
-          
+
       - name: success message
-        # run: echo program executed successfully on ubuntu-latest!!
+        run: echo program executed successfully on ubuntu-latest!!
         run: echo ${{github.event.inputs.inp1}}
 
