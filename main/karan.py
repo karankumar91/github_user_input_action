@@ -1,5 +1,10 @@
+
 import sys
 
-Name = sys.argv[1]
-Age = sys.argv[2]
-print(f'user Name is: {Name} and age is : {Age}')
+
+def add(a, b):
+    x = a+ " " + b
+    return x
+
+a = sys.argv[1]
+b = sys.argv[2]
